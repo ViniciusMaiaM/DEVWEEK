@@ -9,7 +9,7 @@ personagens.forEach((personagem) => {
 
     personagem.classList.add('selecionado'); //adiciona a classificação de selecionado para qual o mouse está sobre
 
-    const idSelecionado = personagem.attributes.id.value;
+    const idSelecionado = personagem.attributes.id.value; //corrigir seleção de personagem
 
     const imagemJogador1 = document.getElementById("personagem-jogador-1");
     imagemJogador1.src = `./src/imagens/${idSelecionado}.png`; //usa a crase pq as aspas não serviriam para este caso
